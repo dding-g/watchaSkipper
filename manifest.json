@@ -1,9 +1,10 @@
 {
-	"name": "Watcha Skipper",
-	"description": "watch web에서 사용할 때 영상 openning skip",
-	"version": "1.0",
-	"manifest_version": 3,
-	"background": {
-		"service_worker": "skipper.js"
-	}
+  "name": "Watcha Skipper",
+  "description": "watch web에서 사용할 때 영상 openning skip",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "scripting", "webNavigation"]
 }

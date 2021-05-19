@@ -1,0 +1,34 @@
+body {
+  width: 25rem;
+}
+
+h3 {
+  color: #ff8c00;
+}
+a:link {
+  color: #f82f62;
+  text-decoration: none;
+}
+a:visited {
+  color: #f82f62;
+  text-decoration: none;
+}
+a:hover {
+  color: #f82f62;
+  text-decoration: underline;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bodyWrapper {
+  background-color: black;
+  padding: 1rem;
+}
+
+.contentWrapper {
+  color: #cf3636;
+  margin: 0 1rem;
+}

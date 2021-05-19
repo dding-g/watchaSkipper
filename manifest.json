@@ -6,5 +6,21 @@
   "background": {
     "service_worker": "background.js"
   },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/watchaSkipper_16.png",
+      "32": "/images/watchaSkipper_32.png",
+      "48": "/images/watchaSkipper_64.png",
+      "128": "/images/watchaSkipper_128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/watchaSkipper_16.png",
+    "32": "/images/watchaSkipper_32.png",
+    "48": "/images/watchaSkipper_64.png",
+    "128": "/images/watchaSkipper_128.png"
+  },
+
   "permissions": ["storage", "scripting", "webNavigation"]
 }

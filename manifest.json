@@ -21,6 +21,6 @@
     "48": "/images/watchaSkipper_64.png",
     "128": "/images/watchaSkipper_128.png"
   },
-
-  "permissions": ["storage", "scripting", "webNavigation"]
+  "permissions": ["storage", "scripting", "activeTab", "webNavigation"],
+  "host_permissions": ["https://watcha.com/home"]
 }

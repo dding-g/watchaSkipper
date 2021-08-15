@@ -8,7 +8,7 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
-    <script type="text/javascript" src="popup.js"></script>
+    <script src="popup.js"></script>
   </head>
   <body>
     <div class="bodyWrapper">
@@ -18,7 +18,12 @@
       </div>
       <div class="contentWrapper">
         <div class="form-check form-switch">
-          <input class="form-check-input" type="checkbox" id="openingSkip" />
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="openingSkip"
+            onclick="testClick()"
+          />
           <label class="form-check-label" for="openingSkip"
             >Openning Skip</label
           >

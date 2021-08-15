@@ -14,5 +14,5 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
       : "from the extension"
   );
 
-  if (request.action === "FINISH") sendResponse({ farewell: "goodbye" });
+  if (request.action === "FINISH") sendResponse({ farewell: "setSkipper" });
 });
